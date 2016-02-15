@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Dropdowns 1: Basic, single level</title>
+	<style>
+	
+	body {
+		font: arial, helvetica, sans-serif;
+        font-size: 15px;
+		background-color: #F0F0F0;
+		color: #000033;
+	}
+	
+	
+	
+	ul { 
+		padding: 0;
+		margin: 0;
+		background: #CC9966;
+	}
+	
+	li { 
+		display: inline; 
+		position: relative; 
+	}
+
+	ul ul { 
+		position: absolute; 
+		left: 0; 
+		top: 100%; 
+		display: none; 
+	}
+	
+	li:hover ul {
+		display: block; 
+	}
+	
+	</style>
+</head>
+
+<body>
+
+	<ul>
+		<li>
+			<a href="">Birds</a>
+			<ul>
+				<li><a href="">Ratites</a></li>
+				<li><a href="">Fowl</a></li>
+				<li><a href="">Neoaves</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="">Mammals</a>
+			<ul>
+				<li><a href="">Monotremes</a></li>
+				<li><a href="">Marsupials</a></li>
+				<li><a href="">Placentals</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="">Reptiles</a>
+			<ul>
+				<li><a href="">Lizards and snakes</a></li>
+				<li><a href="">Tortoises and turtles</a></li>
+				<li><a href="">Crocodilians</a></li>
+				<li><a href="">Tuatara</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="">Amphibians</a>
+			<ul>
+				<li><a href="">Frogs and toads</a></li>
+				<li><a href="">Salamanders and newts</a></li>
+				<li><a href="">Caecilians</a></li>
+			</ul>
+		</li>
+	</ul>
+
+	<p>This dropdown list is very useful for organizing navigation and keep your page from becoming an unorganized mess. Readme: <a href="https://github.com/vbrajvong/CSSTutorial/blob/master/README.md">here</a>.</p>
+
+
+</body>
+
+</html>
+
